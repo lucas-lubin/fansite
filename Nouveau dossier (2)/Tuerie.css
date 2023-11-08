@@ -1,0 +1,218 @@
+.spacing{
+    letter-spacing : 1px ; 
+    }
+    #None{
+        color: black;
+        text-decoration: none;
+    }
+
+.mots{
+    word-spacing: 50px;
+}
+
+body, html, header, h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+header,body,html{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background: url("https://ds.static.rtbf.be/article/image/1248x702/c/b/c/4efb80f630ccecb2d3b9b2087b0f9c89-1685973550.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+
+.wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 10px rgba(black,0.);
+}
+
+h1{
+    font-size: 65px;
+}
+
+.subtitle{
+    font-size: 23px;
+}
+
+.fond-fondue{
+    background-image: linear-gradient(to bottom, rgba(249,119,22), rgba(148,0,0));
+}
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /* Les valeurs de box-shadow sont respectivement l'horizontal offset, le vertical offset,
+       le flou et la couleur de l'ombre. Vous pouvez ajuster ces valeurs selon vos préférences. */
+  }
+  .separator {
+    width: 100%;
+    height: 8px; /* Ajustez la hauteur de la barre de séparation selon vos besoins */
+    background-color: rgb(9, 9, 9);
+  }
+.right{
+    float: left;
+}
+
+.left{
+    float: right;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    33.33% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+
+
+
+
+.rounded-box {
+    width: 300px;
+    height: 500px;
+    background-color: #f0f0f0;
+    border-radius: 10px; /* Définit le rayon de bordure arrondie */
+    padding: 100px;
+}
+
+.taille{
+    width: 200px;
+        height: 200px;
+        padding: 15px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.carousel-container-letter {
+    position: relative;
+    max-width: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide-letter {
+    flex: 0 0 80%;
+    min-width: 100%;
+    overflow: hidden;
+}
+.carousel-letter {
+    display: flex;
+    animation: scroll-letter 20s linear infinite;
+}
+
+@keyframes scroll-letter {
+    0% {
+        transform: translateX(0%);
+    }
+    33.33% {
+        transform: translateX(50%);
+    }
+    66.66% {
+        transform: translateX(0%);
+    }
+    66.66% {
+        transform: translateX(-50%);
+    }
+
+}
+
+.resaux{
+    width: 20px;
+    height: 20px;
+
+}
